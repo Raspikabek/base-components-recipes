@@ -48,6 +48,8 @@ export default class cTextarea extends LightningElement {
 
     @api accessKey;
 
+    @api rows;
+
     @track _maxLength;
     @track _minLength;
     @track _defaultValue = '';
